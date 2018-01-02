@@ -1,0 +1,25 @@
+{
+  "name": "exploring-graphql",
+  "version": "1.0.0",
+  "description": "Exploring NodeJS GraphQL server",
+  "main": "server.js",
+  "scripts": {
+    "dev:server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imants-kusins/exploring-graphql.git"
+  },
+  "author": "Imants Kusins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imants-kusins/exploring-graphql/issues"
+  },
+  "homepage": "https://github.com/imants-kusins/exploring-graphql#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.12.3",
+    "nodemon": "^1.14.7"
+  }
+}
